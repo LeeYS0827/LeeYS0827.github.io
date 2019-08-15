@@ -1,0 +1,12 @@
+p{  /*沒有指定，指所有的p*/
+	color: #8E8DF6;
+}
+div p{
+	color: #33E873;
+}
+div.red p{
+	color: #F51C1C;
+}
+div p#black{
+	color: #070707;
+}

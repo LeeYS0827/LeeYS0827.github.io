@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>柚心園 - 麻豆老欉文旦柚</title>
+  <meta name="description" content="柚心園是提供台南麻豆文旦柚產地直銷的果園">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+      <!--選單區塊 -->
+      <div class="top">
+           <!--柚心園麻豆文旦商標 -->
+           <img src="image/logo.jpg" class="logo-img">
+           <ul>
+              <li><a href="index.html">品牌故事</a></li>
+          	  <li><a href="introduce.html">小柚成長史</a> </li>
+          	  <li><a href="buy.html">購買小柚</a></li>
+          	  <li><a href="on-sell.html">限時折扣</a></li>
+          	  <li><a href="map.html">門市據點</a></li>
+          	  <li><a href="contact.html">連絡我們</a></li>
+           </ul>
+      </div>
+      <!--柚心園麻豆文旦表單-->
+      <form action="index.html" method="get" class="contact-form" id="contact-form">
+        <div class="contact-table">
+          <div class="contact-row">
+            <div class="contact-cell">
+              <label for="user-name">姓名:</label>
+            </div>
+            <div class="contact-cell">
+              <input type="text" name="user-name" id="user-name">
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-cell">
+              <label for="mobile">電話:</label>
+            </div>
+            <div class="contact-cell">
+              <input type="text" name="mobile" id="mobile">
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-cell">
+              <label for="quantity">購買數量:</label>
+            </div>
+            <div class="contact-cell">
+              <input type="text" name="quantity" id="quantity">
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-cell">
+              <label for="packing">包裝方式:</label>
+            </div>
+            <div class="contact-cell">
+              <input type="radio" name="packing1" value="box" id="packing">紙箱
+              <input type="radio" name="packing2" value="bag">袋裝(可複選，並於備註欄標註如何分裝)
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-cell">
+              <label for="method">取貨方式:</label>
+            </div>
+            <div class="contact-cell">
+              <select name="method" id="method">
+                <option>宅配</option>
+                <option>自取-仁德店</option>
+                <option>自取-產地麻豆</option>
+              </select>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-cell">
+              <label for="address">郵寄地址:</label>
+            </div>
+            <div class="contact-cell">
+              <input type="text" name="address" id="address">
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-cell">
+              <label for="line">line:</label>
+            </div>
+            <div class="contact-cell">
+              <input type="text" name="line" id="line">
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-cell">
+              <label for="notes">備註(例: 紙箱10斤*5 袋裝5斤*6):</label>
+            </div>
+            <div class="contact-cell">
+              <textarea name="notes" id="notes">請輸入分裝方式</textarea>
+            </div>
+          </div>
+          <div>
+          	<div class="contact-row">
+          		<div class="contact-cell">
+          			<button type="submit" form="contact-form" class="submit-button">送出訂購單</button>
+          		</div>
+          </div>
+        </div>
+      </form>  
+      <!--柚心園麻豆文旦網頁底部-->
+      <div class="fotter">
+          <p>
+      	  園址:台南市麻豆區
+          </p>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,308 @@
+.text1{
+	color: #0AB927;
+}
+p{
+	color: #060606;
+}
+a:link{
+	color: #FDCC4C;
+	text-decoration:none;
+	font-size: 70px;
+}
+a:visited{
+	color: #47B86B;
+	font-size: 70px;
+}
+a:hover{
+	color: #61D3FC;
+	text-decoration:underline;
+	font-size: 70px;
+}
+a:active{
+	color:#E426AF;
+}
+.story{
+	background-image: url("image/story.png");
+	height: 1200px;
+	background-repeat: no-repeat;
+	background-size: 2000px auto;
+	background-position: 1000px 450px;
+	padding: 400px;
+}
+
+.story-text{
+	width: 40%;
+	height: 1200px;
+	background-color: rgba(250,220,50,0.1);
+	color:  #47B86B;
+	font-size: 75px;
+	font-weight: bold;
+	float: left;
+}
+.story-title{
+	color: #060606;
+	font-size: 100px;
+}
+.story-image{
+	width: 30%;
+	height: 1200px;
+	float: right;
+	background-image: url("image/story-img.jpg");
+	background-size: 1800px auto;
+	background-repeat: no-repeat;
+	background-position: 30px 0px;
+}
+.top{
+	text-align: center;
+	background-color: #95F733;
+	height: 250px;
+	-webkit-box-shadow: 0 0 41px #45a34e;
+	-moz-box-shadow: 0 0 41px #45a34e;
+	box-shadow: 0 0 41px #45a34e;
+}
+.banner1-img{
+	width: 600PX;
+}
+ul{
+	float: right;
+	list-style: none;
+}
+li{
+	display: inline-block;
+	padding-right: 60px;
+	padding-left: 60px;
+	font-weight: bolder;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfc0f+0,e9f931+40,91ed2f+100 */
+	background: #fcfc0f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fcfc0f 0%, #e9f931 40%, #91ed2f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #fcfc0f 0%,#e9f931 40%,#91ed2f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #fcfc0f 0%,#e9f931 40%,#91ed2f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfc0f', endColorstr='#91ed2f',GradientType=0 ); /* IE6-9 */
+	-webkit-border-top-left-radius: 50px;
+	-webkit-border-bottom-right-radius: 50px;
+	-moz-border-radius-topleft: 50px;
+	-moz-border-radius-bottomright: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+li:hover{
+	background-color: #C8F3F7;
+}
+.introduce-list{
+	width: 40%;
+	height: 1346px;
+	background-color: #D7F9D7;
+	float: left;
+	text-align: center;
+	line-height: 120px;   /*line-height 是要使文字垂直置中*/
+	font-size: 100px;
+	margin-top: 180px;
+} 
+h2{
+	font-size: 100px;
+}
+.introduce-img{
+	width: 60%;
+	background-color: #C7EDF4;
+	float: left;
+	margin-top: 180px;
+}
+img{
+	width: 18%; /*調整introduce-img的大小，也可用 %*/
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+.fotter{
+	background-color: #95F733;
+	color: #FDCC4C;
+	text-align: center;
+	font-size: 70px;
+	clear: left;
+	padding: 2px;
+	margin-top: 240px;
+}
+.introduce-fotter{
+	background-color: #95F733;
+	color: #FDCC4C;
+	text-align: center;
+	font-size: 70px;
+	clear: left;
+	padding: 2px;
+	margin-top: 1800px;
+}
+.buy{
+	background-color: #D7F9D7;
+	width:100%;
+	height: 2100px;
+	padding-bottom: 300px;
+	padding-top: 0px;
+}
+.buy-text h1{
+	font-size: 100px;
+    padding-top: 50px;
+	margin-top: 0px;
+}
+.buy-text{
+	width: 70%;
+}
+.buy-image{
+	position: relative;
+	float: right;
+}
+.buy-image img{
+	width: 800px;
+	padding-bottom: 0px;
+}
+.small-buy-image{
+	padding-top: 480px;
+}
+.buy-text{
+	padding-top: 300px;
+	margin-left: 700px;
+	font-size: 100px;
+}
+.contact-fotter{
+	background-color: #95F733;
+	color: #FDCC4C;
+	text-align: center;
+	font-size: 70px;
+	clear: left;
+	padding: 2px;
+}
+h3{
+	position: absolute;
+	top: 10px;
+    left: 47px;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+.top{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+.top img{
+	float: left;
+	width: 480px;
+	height: 200px;
+	position: relative;
+}
+.introduce{
+	padding-top: 400px;
+}
+.introduce-table{
+	border-collapse: collapse;
+	width: 80%; /*讓整個表格放大*/
+	height: 50px; /*有沒有這行都沒差耶?!*/
+	margin: auto; /*讓表格置中*/
+} 
+th{  /*th控制表頭格式，字會變粗且置中*/
+	border-style: solid; 
+	border-color: #47B86B;
+	border-width: 1px;
+	padding: 6px;
+}
+td{
+	border-style: solid; 
+	border-color: #47B86B;
+	border-width: 1px;
+	padding: 6px;
+}
+tr:nth-child(odd){
+	background-color: #95F733;
+}
+tr:nth-child(odd):hover{
+	background-color: #2CB7F3;
+}
+tr:nth-child(even):hover{
+	background-color: #87DFF6;
+}
+/*把 table 改成更好的結構 div*/
+.div-table{
+	display: table;
+	border-collapse: collapse;
+	width: 80%; /*讓整個表格放大*/
+	height: 50px; /*有沒有這行都沒差耶?!*/
+	margin: auto; /*讓表格置中*/
+}
+.table-tr{
+	display: table-row; /*tr 不用*/
+}
+.table-td{
+	display: table-cell;
+	border-style: solid; 
+	border-color: #47B86B;
+	border-width: 1px;
+	padding: 6px;
+}
+.div-table:nth-child(odd){
+	background-color:  #95F733; /*無效!! ,要在.table-tr改變*/
+}
+.table-tr:nth-child(odd){
+	background-color:  #95F733;
+}
+.table-tr:nth-child(odd):hover{
+	background-color:  #2CB7F3;
+}
+.table-tr:nth-child(even):hover{
+	background-color: #87DFF6;
+}
+.contact-table{
+	display: table;
+	width: 45%;
+	background-color: #D7F9D7;
+	background-size: 100%;
+	position: center;
+	margin-left: 30px;
+}
+.contact-row{
+	display: table-row;
+}
+.contact-cell{
+	display: table-cell;
+	padding: 20px;
+	border: 5px dashed #FFFFFF;
+}
+.contact-cell:nth-child(odd){
+	color: #47B86B;
+	font-weight: bolder;
+	font-size: 60px;
+	text-align: right;
+}
+.contact-cell:nth-child(even){
+	font-size: 60px;
+}
+.contact-form{
+	background-image: url("image/contact-bg.jpg");
+	background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    padding-top: 400px;
+}
+#user-name, #mobile, #quantity, #address, #line{
+	height: 100px;
+	width: 100%;
+}
+#method{
+	height: 100px;
+	width: 40%;
+}
+#notes{
+	height: 350px;
+	width: 100%;
+}
+.submit-button{
+	background-color: #FDD785;
+	width: 500px;
+	height: 200px;
+	font-size: 80px;
+	margin-left: 250%;  /*讓按鈕置中*/
+}

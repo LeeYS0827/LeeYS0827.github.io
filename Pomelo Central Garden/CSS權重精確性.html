@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css-specificity.css">
+</head>
+<body>
+ <div>
+	 <p>綠字:我是div 的後代p，雖然我也是p</p>
+	 <div class="red">
+	 	<p>紅字:我是帶有.red樣式的div的後代，雖然我也是p，也是div的後代p </p>
+	    <div>...<p id="black">黑字:我是有ID的DIV裡的P,雖然我也符合其他條件</p></div>
+     </div>
+ </div>
+ <p>藍字:我只符合了p的條件。</p>
+</body>
+</html>
